@@ -49,11 +49,17 @@ Utilisant votre script précédent, le modifier pour réaliser les taches suivan
    - Identiques &rarr; La passphrase utilisée est correcte
    - Différents &rarr; Essayer avec une nouvelle passphrase
 
+Le script (en mode DEBUG, soit ne parcourant qu'une partie du dictionnaire pour gagner du temps) en cours d'exécution :
+
+![Point 2 script en cours](img/Script_2.png)
 
 ### 3. Attaque hashcat
 
 A manière de comparaison, réaliser l'attaque sur le [fichier de capture](files/PMKID_handshake.pcap) utilisant la méthode décrite [ici](https://hashcat.net/forum/thread-7717.html).
 
+Attaque hashcat réussie :
+
+![Point 3 attaque réussie](img/Screenshot_3.png)
 
 ## Livrables
 
